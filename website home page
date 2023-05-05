@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fruit farm</title>
+    <link rel="stylesheet" href="lawfirm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <!--header-->
+    <section class="header">
+<nav>
+    <img src="images/logo.jpg" >
+    <div class="nav-links">
+        <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Blog</a></li>
+           <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="text-box">
+            <h1>Fruitful firm</h1>
+            <p style="color: aliceblue;">You need fresh fruit, we got you. Don't hesitate to give us a call. our fruits are freshly picked from our farms. We assure you of great quality.</p>
+            <a class="btn" href="#">Order with us today!</a>
+
+        </div>
+    </div>
+</nav>
+    </section>
+    
+    <!--fruits-->
+
+    <section class="fruits">
+        <h1>Fruits available on our farma;</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde delectus quam debitis officiis illo quibusdam et earum, sint recusandae nostrum facere voluptatum accusamus sed porro. Vel eaque accusamus corporis eveniet?</p>
+          <div class="row">
+            <div class="fruit-colum">
+              <h3>CITRUS FRUITS</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptates labore, iure modi ullam neque eaque officiis corporis enim nulla exercitationem maxime libero at quia commodi voluptas unde natus itaque.</p>
+            </div>
+            <div class="fruit-colum">
+                <h3>apple FRUITS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptates labore, iure modi ullam neque eaque officiis corporis enim nulla exercitationem maxime libero at quia commodi voluptas unde natus itaque.</p>
+            </div>
+            <div class="fruit-colum">
+                <h3>grapes FRUITS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptates labore, iure modi ullam neque eaque officiis corporis enim nulla exercitationem maxime libero at quia commodi voluptas unde natus itaque.</p>
+            </div>
+
+    </section>
+   <br> <hr><br>
+    <!--Mode of delivery-->
+
+    <section class="delivery">
+    <h1 >Delivery options;</h1>
+    <p >Lorem ipsum dolor sit amet.</p>
+    <div class="row">
+        <div class="platforms">
+            <img src="images/glovo2.jpeg" >
+            <div class="layer">
+                <h3>Glovo</h3>
+            </div>
+        </div>
+            <div class="platforms">
+                <img src="images/jumia.jpeg" >
+                <div class="layer">
+                    <h3>Jumia</h3>
+                </div>
+            </div>
+                <div class="platforms">
+                    <img src="images/uber.jpeg" >
+                    <div class="layer">
+                        <h3>Uber Eats</h3>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+</section>
+<br><hr><br>
+
+<!--Facilities-->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, similique!</P>
+
+    <div class="row">
+    <div class="facilities-colum">
+        <img src="images/branch1.jpeg">
+        <h3>First branch</h3>
+        <p>located in Nyanza.</p>
+    </div>
+
+    <div class="facilities-colum">
+        <img src="images/branch2.jpeg">
+        <h3>second branch</h3>
+        <p>located in Nyeri</p>
+    </div>
+    </div>
+</section>
+ <br><hr><br>
+  <!--customer feedback-->
+  <section class="feedback">
+        <h1>Feedback from some of our customers;</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, sit!</p>
+        <div class="feedback-colum">
+        <img src="images/customer.jpeg" >
+        <div>
+        <p>Lovely service and fresh fruits</p>
+        <h3>Juke wainaina</h3>
+        <i class="fa-solid fa-star-sharp"></i>
+        <i class="fa-solid fa-star-sharp"></i>
+        <i class="fa-solid fa-star-sharp"></i>
+        <i class="fa-solid fa-star-sharp"></i>
+        <i class="fa-solid fa-star-sharp"></i>
+        </div>
+       </div>
+       <div class="feedback-colum">
+        <img src="images/customer2.jpeg" >
+        <div>
+        <p>Freshest fruits and vegetables in town</p>
+        <h3>Jane Ben</h3>
+        <i class="fa-solid fa-star-sharp"></i>
+        <i class="fa-solid fa-star-sharp"></i>
+        <i class="fa-solid fa-star-sharp"></i>
+        <i class="fa-solid fa-star-sharp-half"></i>
+        </div>
+       </div>
+     </section>
+
+     <!--call to action-->
+     <section class="cta">
+        <h1>Reach out to us today</h1>
+        <a href="btn">Contact us</a>
+     </section>
+
+</body>
+</html>
+
+
+
+
+
+css part:
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -----header----- */
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(images/dwsample-jfif-1920.jfif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header img{
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: lightyellow;
+    text-decoration: none;
+
+}
+
+.nav-links ul li a:hover{
+    background-color: goldenrod;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.text-box{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    color:greenyellow;
+}
+.text-box{
+    max-width: 10px 0px 40px;
+    color: whitesmoke;
+    
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color:aqua;
+    border: 1px solid greenyellow;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 1px solid olive;
+    background-color: saddlebrown;
+    transition: 0.5s;
+}
+
+/*----fruits---*/
+.fruits{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-weight: 600;
+
+}
+
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fruit-colum{
+    flex-basis: 31%;
+    background-color: rgb(164, 83, 239);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+
+}
+.fruit-colum:hover{
+    background-color:  hotpink;
+}
+.fruit-colum p{
+    text-align: left;
+}
+/*----delivery options----*/
+
+.delivery{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.platforms{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.platforms img{
+    width: 100%;
+    display:block;
+
+}
+.layer{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.layer:hover{
+    background-color:rgba(153, 127, 127, 0.5);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color:black;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 48%;
+    opacity: 1;
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-colum{
+    flex-basis: 40%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-colum img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities{
+    padding: 0;
+}
+.facilities-colum h2{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.feedback{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.feedback-colum{
+    flex-basis: 40%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: brown;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+
+}
+.feedback-colum img{
+    height: 40px;
+    margin: 5%;
+    border-radius: 50%;
+}
+.feedback-colum p{
+    padding: 0%;
+}
+.feedback-colum h3{
+    margin-top: 15px;
+    text-align: left;
+}
+.feedback-colum .fa-solid{
+    color: red;
+}
